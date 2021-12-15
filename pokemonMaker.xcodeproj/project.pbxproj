@@ -11,6 +11,8 @@
 		49B6507A2769DA250099F7D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B650792769DA250099F7D1 /* ContentView.swift */; };
 		49B6507C2769DA2F0099F7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B6507B2769DA2F0099F7D1 /* Assets.xcassets */; };
 		49B6507F2769DA2F0099F7D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B6507E2769DA2F0099F7D1 /* Preview Assets.xcassets */; };
+		49B650882769DA8D0099F7D1 /* pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B650872769DA8D0099F7D1 /* pokedex.swift */; };
+		49B6508B2769DAB50099F7D1 /* favoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B6508A2769DAB50099F7D1 /* favoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		49B6507B2769DA2F0099F7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B6507E2769DA2F0099F7D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49B650802769DA2F0099F7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B650872769DA8D0099F7D1 /* pokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedex.swift; sourceTree = "<group>"; };
+		49B6508A2769DAB50099F7D1 /* favoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,10 @@
 		49B650762769DA250099F7D1 /* pokemonMaker */ = {
 			isa = PBXGroup;
 			children = (
+				49B6508A2769DAB50099F7D1 /* favoriteView.swift */,
 				49B650772769DA250099F7D1 /* pokemonMakerApp.swift */,
 				49B650792769DA250099F7D1 /* ContentView.swift */,
+				49B650872769DA8D0099F7D1 /* pokedex.swift */,
 				49B6507B2769DA2F0099F7D1 /* Assets.xcassets */,
 				49B650802769DA2F0099F7D1 /* Info.plist */,
 				49B6507D2769DA2F0099F7D1 /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B6508B2769DAB50099F7D1 /* favoriteView.swift in Sources */,
+				49B650882769DA8D0099F7D1 /* pokedex.swift in Sources */,
 				49B6507A2769DA250099F7D1 /* ContentView.swift in Sources */,
 				49B650782769DA250099F7D1 /* pokemonMakerApp.swift in Sources */,
 			);
